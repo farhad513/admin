@@ -1,0 +1,165 @@
+import { AiFillDashboard, AiOutlineShoppingCart } from "react-icons/ai";
+import { BiCategory, BiLoaderCircle } from "react-icons/bi";
+import { FiUsers } from "react-icons/fi";
+import {
+  FaAmbulance,
+  FaBlog,
+  FaUserSecret,
+  FaUserMd,
+  FaUserNurse,
+  FaRegCalendarAlt,
+  FaPrescriptionBottleAlt,
+  FaImages,
+  FaImage,
+} from "react-icons/fa";
+
+export const allNav = [
+  {
+    id: 1,
+    title: "ড্যাশবোর্ড",
+    icon: <AiFillDashboard />,
+    role: "admin",
+    path: "/admin/dashboard",
+  },
+  {
+    id: 2,
+    title: "সব ডাক্তার",
+    icon: <AiOutlineShoppingCart />,
+    role: "admin",
+    path: "/admin/dashboard/all-doctors",
+  },
+  {
+    id: 2,
+    title: "অ্যাপয়েন্টমেন্টস",
+    icon: <AiOutlineShoppingCart />,
+    role: "admin",
+    path: "/admin/dashboard/appoinments",
+  },
+  {
+    id: 3,
+    title: "ক্যাটাগরি",
+    icon: <BiCategory />,
+    role: "admin",
+    path: "/admin/dashboard/category",
+  },
+  {
+    id: 20,
+    title: "ব্যানার যুক্ত করুন",
+    icon: <FaImage />, // You can use another icon if you want
+    role: "admin",
+    path: "/admin/dashboard/add-banner",
+  },
+  {
+    id: 21,
+    title: "সব ব্যানার",
+    icon: <FaImages />, // You can use another icon if you want
+    role: "admin",
+    path: "/admin/dashboard/all-banners",
+  },
+  {
+    id: 18,
+    title: "ব্লগ যোগ করুন",
+    icon: <FaBlog />,
+    role: "admin",
+    path: "/admin/dashboard/add-blog",
+  },
+  {
+    id: 19,
+    title: "সব ব্লগ",
+    icon: <FaBlog />,
+    role: "admin",
+    path: "/admin/dashboard/all-blog",
+  },
+  {
+    id: 20,
+    title: "অ্যাম্বুলেন্স যোগ করুন",
+    icon: <FaAmbulance />,
+    role: "admin",
+    path: "/admin/dashboard/add-ambulance",
+  },
+  {
+    id: 21,
+    title: "সব অ্যাম্বুলেন্স",
+    icon: <FaAmbulance />,
+    role: "admin",
+    path: "/admin/dashboard/all-ambulance",
+  },
+  {
+    id: 27,
+    title: "অ্যাম্বুলেন্স অর্ডার",
+    icon: <FaAmbulance />,
+    role: "admin",
+    path: "/admin/dashboard/ambulance-order",
+  },
+  {
+    id: 28,
+    title: "প্রেস্ক্রিপশন অর্ডার",
+    icon: <FaPrescriptionBottleAlt />,
+    role: "admin",
+    path: "/admin/dashboard/prescription-order",
+  },
+  {
+    id: 22,
+    title: "সব ইউজার",
+    icon: <FaUserSecret />,
+    role: "admin",
+    path: "/admin/dashboard/all-users",
+  },
+  {
+    id: 4,
+    title: "হাসপাতাল সমূহ",
+    icon: <FiUsers />,
+    role: "admin",
+    path: "/admin/dashboard/hospitals",
+  },
+  {
+    id: 6,
+    title: "ডিএক্টিভ হাসপাতাল",
+    icon: <FiUsers />,
+    role: "admin",
+    path: "/admin/dashboard/deactive-hospitals",
+  },
+  {
+    id: 7,
+    title: "হাসপাতালের অনুরোধ",
+    icon: <BiLoaderCircle />,
+    role: "admin",
+    path: "/admin/dashboard/hospitals-request",
+  },
+
+  {
+    id: 9,
+    title: "ড্যাশবোর্ড",
+    icon: <AiFillDashboard />,
+    role: "hospital",
+    path: "/hospital/dashboard",
+  },
+  {
+    id: 10,
+    title: "ডাক্তার যোগ করুন",
+    icon: <FaUserMd />,
+    role: "hospital",
+    path: "/hospital/dashboard/add-doctor",
+  },
+  {
+    id: 11,
+    title: "সব ডাক্তার",
+    icon: <FaUserNurse />,
+    role: "hospital",
+    path: "/hospital/dashboard/doctors",
+  },
+  {
+    id: 13,
+    title: "অ্যাপয়েন্টমেন্টস",
+    icon: <FaRegCalendarAlt />,
+    role: "hospital",
+    path: "/hospital/dashboard/appoinments",
+  },
+  {
+    id: 17,
+    title: "প্রোফাইল",
+    icon: <FiUsers />,
+    role: "hospital",
+    path: "/hospital/dashboard/profile",
+  },
+];
