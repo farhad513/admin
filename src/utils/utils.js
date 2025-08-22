@@ -16,8 +16,8 @@ const mode = production
 let app_url, api_url
 
 if (mode === production) {
-    app_url = "https://panel.medifasthealthcare.com/"
-    api_url = "https://api.medifasthealthcare.com/"
+    app_url = "https://panel.medifasthealthcare.com"
+    api_url = "https://api.medifasthealthcare.com"
 } else {
     app_url = 'http://localhost:3001'
     api_url = 'http://localhost:8080'
